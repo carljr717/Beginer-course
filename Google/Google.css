@@ -1,0 +1,32 @@
+.name {
+    width: 500px;
+    height: 200px;
+    margin-left: 200px;
+
+
+}
+
+input {
+    width: 600px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(218, 226, 226);
+    text-decoration: none;
+    margin-left: 150px;
+}
+.name-2, .name-3{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.button-1{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    align-items: center;
+    flex-direction: column;
+
+}
+

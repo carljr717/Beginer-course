@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+
+.arrange {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Volkswagen */
+.volkswagen-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Mercedes */
+.mercedes-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Toyota */
+.toyota-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Rolls-Royce */
+.rollsroyce-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Nissan */
+.nissan-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Koenigsegg */
+.koenigsegg-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h2 {
+    margin-top: 0;
+}
+
+.carl {
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: royalblue;
+    color: black;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    transition: transform 0.3s ease;
+}
+
+.carl:hover {
+    transform: translateY(-5px);
+}
+body{
+    background-color: #AFCBFF;
+    display: flex;
+}
+*{
+    margin: 10px;
+}

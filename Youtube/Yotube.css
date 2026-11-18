@@ -1,0 +1,43 @@
+.card {
+    font-family: sans-serif;
+    width: 350px;
+    position: relative;
+    margin: 10px;
+}
+
+.card img {
+    border: none;
+    border-radius: 12px;
+    width: 350px;
+    height: 200px;
+    display: flex;
+}
+
+.card p {
+    color: grey;
+}
+
+.menu {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.menu img {
+    height: 20px;
+    width: 20px;
+}
+
+.container{
+    display: flex;
+
+}
+.circle-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
